@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetShield — İnternetin Özgür Kalır</title>
+    <meta name="description" content="Sıfır telemetri ile çalışan, DPI bypass + VPN + DNS gizliliği sunan Windows ağ aracı.">
+    <link rel="icon" type="image/x-icon" href="assets/netshield.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <img src="assets/netshield.ico" alt="NetShield" width="36" height="36">
+            <span>NetShield</span>
+        </div>
+        <div class="nav-links">
+            <a href="#features">Özellikler</a>
+            <a href="#download">İndir</a>
+            <a href="#faq">SSS</a>
+            <a href="https://github.com/NetShield0/NetShield" class="nav-github">GitHub ↗</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <img src="assets/netshield.ico" alt="NetShield" class="hero-logo">
+        <h1>NetShield</h1>
+        <p class="hero-tagline">🛡️ İnternetin özgür kalır.</p>
+        <p class="hero-description">
+            Sıfır telemetri ile çalışan, DPI bypass + VPN + DNS gizliliği sunan<br>
+            Windows ağ aracı. Tek tıkla engelleri aş, reklamları kes, gizliliğini koru.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="https://github.com/NetShield0/NetShield/releases/latest" class="btn btn-primary">
+                ⬇️ İndir (v1.0.0)
+            </a>
+            <a href="https://github.com/NetShield0/NetShield" class="btn btn-secondary">
+                📦 Kaynak Kod
+            </a>
+        </div>
+
+        <div class="hero-badges">
+            <span class="badge">🔒 Sıfır Telemetri</span>
+            <span class="badge">💻 Windows 10/11</span>
+            <span class="badge">📄 MIT Lisans</span>
+            <span class="badge">⚡ Açık Kaynak</span>
+        </div>
+    </div>
+</section>
+
+<!-- ÖZELLİKLER -->
+<section id="features" class="section">
+    <div class="container">
+        <h2 class="section-title">✨ Özellikler</h2>
+        <p class="section-subtitle">Tek araçta ihtiyacın olan her şey</p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🚀</div>
+                <h3>DPI Bypass</h3>
+                <p>3 motor (GoodbyeDPI + Zapret) ve 23+ strateji. Ağınıza en uygun stratejiyi otomatik bulur.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌐</div>
+                <h3>VPN</h3>
+                <p>Cloudflare WARP ile tek tuşla bağlan. Kendi WireGuard config'ini ekle. DPAPI ile şifreli saklama.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🚫</div>
+                <h3>DNS Gizliliği + Ad Block</h3>
+                <p>Cloudflare + AdGuard DoH ile şifreli DNS ve sistem geneli reklam engelleme.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Kill Switch</h3>
+                <p>VPN çökerse interneti otomatik keser. Trefik asla açık ağdan akmaz.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Canlı İstatistikler</h3>
+                <p>Süre, bağlantı sayısı, bellek, hız — hepsi gerçek zamanlı.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⌨️</div>
+                <h3>Global Kısayollar</h3>
+                <p>Ctrl+Shift+B ile bypass aç/kapat. Sistem tepsisi ile arka planda çalışır.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- İNDİRME -->
+<section id="download" class="section section-dark">
+    <div class="container">
+        <h2 class="section-title">📥 İndir</h2>
+        <p class="section-subtitle">İki sürüm, sana uygun olanı seç</p>
+
+        <div class="download-grid">
+            <div class="download-card">
+                <div class="download-tag recommended">⭐ Önerilen</div>
+                <h3>🟢 Python Sürümü</h3>
+                <p class="download-size">~1.9 MB</p>
+                <ul class="download-features">
+                    <li>✅ Kaynak kod dahil</li>
+                    <li>✅ En güncel sürüm</li>
+                    <li>✅ Her sistemde çalışır</li>
+                    <li>⚠️ Python 3.10+ gerekir</li>
+                </ul>
+                <a href="https://github.com/NetShield0/NetShield/releases/latest" class="btn btn-primary btn-full">
+                    NetShield-PYT İndir
+                </a>
+            </div>
+
+            <div class="download-card">
+                <div class="download-tag soon">🚧 Yakında</div>
+                <h3>🔵 EXE Sürümü</h3>
+                <p class="download-size">~100 MB</p>
+                <ul class="download-features">
+                    <li>✅ Python gerekmez</li>
+                    <li>✅ Tek dosya, çift tıkla çalışır</li>
+                    <li>✅ Kendi ikonu</li>
+                    <li>🚧 v1.1.0'da gelecek</li>
+                </ul>
+                <button class="btn btn-disabled btn-full" disabled>
+                    Yakında
+                </button>
+            </div>
+        </div>
+
+        <div class="install-steps">
+            <h3>🚀 Hızlı Kurulum</h3>
+            <ol>
+                <li>Zip'i bir klasöre çıkar</li>
+                <li><code>Kurulum.bat</code> çift tıkla</li>
+                <li><code>Baslat.bat</code> çift tıkla</li>
+                <li><strong>Hazır!</strong> 🎉</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<!-- GİZLİLİK -->
+<section class="section section-privacy">
+    <div class="container">
+        <h2 class="section-title">🔒 Gizlilik Öncelikli</h2>
+        <p class="section-subtitle">Verilerin senin cihazında kalır</p>
+
+        <div class="privacy-grid">
+            <div class="privacy-item">
+                <div class="privacy-icon">🚫</div>
+                <h4>Sıfır Telemetri</h4>
+                <p>Sunucuya hiçbir veri gitmez</p>
+            </div>
+            <div class="privacy-item">
+                <div class="privacy-icon">📝</div>
+                <h4>Sıfır Log Gönderimi</h4>
+                <p>Uygulama olayları sadece yerelde tutulur</p>
+            </div>
+            <div class="privacy-item">
+                <div class="privacy-icon">🔐</div>
+                <h4>Şifreli VPN Config</h4>
+                <p>Windows DPAPI ile korunur</p>
+            </div>
+            <div class="privacy-item">
+                <div class="privacy-icon">💾</div>
+                <h4>Tüm Veri Cihazında</h4>
+                <p>Başka kimse erişemez</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SSS -->
+<section id="faq" class="section section-dark">
+    <div class="container">
+        <h2 class="section-title">❓ Sıkça Sorulan Sorular</h2>
+
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>NetShield nedir?</summary>
+                <p>Türkiye'deki internet engellerini aşmak ve gizliliğinizi korumak için tasarlanmış, tek tıkla çalışan bir Windows aracıdır.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Hangi ISS'lerde çalışır?</summary>
+                <p>Türkiye'deki tüm büyük ISS'lerde test edilmiştir: Superonline, Türk Telekom, Vodafone, TurkNet.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Verilerim güvende mi?</summary>
+                <p>Evet. Sıfır telemetri ile çalışır. Hiçbir veri sunucuya gönderilmez. Tüm veriler cihazınızda kalır.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Ücretsiz mi?</summary>
+                <p>Evet! NetShield MIT lisansı altında tamamen ücretsiz ve açık kaynaklıdır.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Python gerekli mi?</summary>
+                <p>Şu anki sürümde evet. Ancak yakında Python gerektirmeyen EXE sürümü yayınlanacak.</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="assets/netshield.ico" alt="NetShield" width="40" height="40">
+                <p><strong>NetShield</strong></p>
+                <p class="footer-tagline">İnternetin özgür kalır.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Proje</h4>
+                <a href="https://github.com/NetShield0/NetShield">GitHub</a>
+                <a href="https://github.com/NetShield0/NetShield/releases">Releases</a>
+                <a href="https://github.com/NetShield0/NetShield/issues">Hata Bildir</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Yasal</h4>
+                <a href="https://github.com/NetShield0/NetShield/blob/main/LICENSE">MIT Lisans</a>
+                <a href="https://github.com/NetShield0/NetShield#readme">Dokümantasyon</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 NetShield Project — Açık kaynak, ücretsiz, sıfır telemetri.</p>
+            <p>Made with 🛡️ in Türkiye</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
